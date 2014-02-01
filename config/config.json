@@ -1,0 +1,13 @@
+{
+    "port": 5500,
+    "mongoose": {
+        "uri": "mongodb://localhost/test",
+        "options": {
+            "server": {
+                "socketOptions": {
+                    "keepAlive": 1
+                }
+            }
+        }
+    }
+}
